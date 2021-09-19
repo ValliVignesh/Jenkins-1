@@ -40,7 +40,7 @@ public class Login {
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.close();
-		
+		System.out.println("Hello");
 	}
 
 
