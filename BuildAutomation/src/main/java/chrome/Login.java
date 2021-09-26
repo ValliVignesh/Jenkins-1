@@ -37,6 +37,7 @@ public class Login {
 		driver.get("http://leaftaps.com/opentaps");
 		driver.findElementById("username").sendKeys("DemoSalesManager");
 		driver.findElementById("password").sendKeys("crmsfa");
+		driver.manage().window().maximize();
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.close();
